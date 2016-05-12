@@ -1,4 +1,4 @@
-FROM ubuntu
+FROM ubuntu:14.04
 # 签名
 MAINTAINER lifeforce "lifeforce@foxmail.com"
 
