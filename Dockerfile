@@ -3,6 +3,7 @@ FROM ubuntu
 MAINTAINER lifeforce "lifeforce@foxmail.com"
 
 # 安装JDK与nginx
+RUN echo 'deb http://cn.archive.ubuntu.com/ubuntu/ trusty main restricted universe multiverse' >>/etc/apt/sources.list
 RUN apt-get update
 RUN apt-get install openjdk-7-jre -y
 RUN apt-get install openjdk-7-jdk -y
